@@ -2,7 +2,7 @@
 Filters: a basic concept in signal processing.
 A filter repeatedly takes an input value and produces an output value.
 
-## Class Hierarchy:
+## Class Hierarchy
 - Filter
   * FilterCascade
   * IdentityFilter
@@ -34,7 +34,7 @@ Each filter may have the following, depending on the type:
 - @n (optional n-parameter to support functioning on last n inputs)
 - #reset method: take in an array, wipe out the elements. The method will be written in a separate module.
 
-## Error Handling:
+## Error Handling
 Implemented in a separate file.
 - Exceptions:
   + NilPointerError: raised when input is nil
